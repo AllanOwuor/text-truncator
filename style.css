@@ -1,0 +1,93 @@
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    background-attachment: fixed;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    width: 810px;
+    text-align: center;
+}
+
+.input-output > textarea {
+    width: 350px;
+    height: 200px;
+    padding: 15px;
+    font-size: 17px;
+    outline: none;
+    border-radius: 5px;
+    margin: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    resize: none;
+}
+
+.input-output > button {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    background-color: rgb(208, 5, 5);
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input-output > button:hover {
+    background-color: #260303;
+}
+
+.actions > input {
+    padding: 5px;
+    font-size: 17px;
+    text-align: center;
+    width: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+}
+
+.actions > button {
+    background-color: rgb(208, 5, 5);
+    font-size: 17px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions > button:hover {
+    background-color: #260303;
+}
